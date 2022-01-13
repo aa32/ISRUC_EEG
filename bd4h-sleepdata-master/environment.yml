@@ -1,0 +1,14 @@
+name: bd4hproj
+channels:
+  - pytorch
+dependencies:
+  - python=3.6
+  - pytorch>=0.4.1
+  - torchvision
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - pip:
+    - pyspark==2.3.1
+    - pyEDFlib
+prefix: /anaconda3/envs/bd4hproj
